@@ -8,7 +8,7 @@ let skills = ["Public Relations", "Organization", "Conflict Resolution"];
 
 //Creates an unordered list with the elements of the list 'skills'
 
-for (let 1 = 0; 1 < skills.length; i++){
+for (let i = 0; i < skills.length; i++){
     let li = document.createElement('li');
     li.textContent = skills[i];
     skillsList.appendChild(li);
