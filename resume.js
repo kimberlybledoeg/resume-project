@@ -3,12 +3,24 @@
 let myName = "Kimberly";
 let title = "Student";
 let education = "Oral Roberts University";
-let experience = "Student Manager, Worship Leader, and Student Ambassador";
-let skills = ["Finding good food", "Organization", "Time management"];
+let experience = "Student Sports Manager, Worship Leader, and Student Ambassador";
+let skills = ["Public Relations", "Organization", "Conflict Resolution"];
+
+//Creates an unordered list with the elements of the list 'skills'
+
+for (let 1 = 0; 1 < skills.length; i++){
+    let li = document.createElement('li');
+    li.textContent = skills[i];
+    skillsList.appendChild(li);
+}
 
 //connect variables to HTML (ligaments)
-
 document.getElementById("my-name").textContent = myName;
 document.getElementById("title").textContent = title;
 document.getElementById("experience").textContent = experience;
 document.getElementById("education").textContent = education;
+
+//Displays a pop-up that shows a fun fact
+function showFunFact(){
+  alert("Fun Fact: I love rolllercoasters!")
+}
