@@ -6,6 +6,9 @@ let education = "Oral Roberts University";
 let experience = "Student Sports Manager, Worship Leader, and Student Ambassador";
 let skills = ["Public Relations", "Organization", "Conflict Resolution"];
 
+function showFunFact(){
+    alert("Fun Fact: I love rollercoasters");
+
 //Creates an unordered list with the elements of the list 'skills'
 
 for (let i = 0; i < skills.length; i++){
