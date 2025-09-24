@@ -7,7 +7,7 @@ let experience = ["Student Sports Manager", "Worship Leader", "Student Ambassado
 
 //Creates an unordered list with the elements of the list 'skills'
 let skills = ["Public Relations", "Organization", "Conflict Resolution"];
-letskillsList=document.createElement("ul");
+let skillsList=document.createElement("ul");
 for (let i = 0; i < skills.length; i++){
     let li = document.createElement('li');
     li.textContent = skills[i];
